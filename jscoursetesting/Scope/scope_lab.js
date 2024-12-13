@@ -30,3 +30,13 @@ show();
 console.log(functionVar); // Throws ReferenceError
 console.log(functionLet); // Throws ReferenceError
 console.log(functionConst); // Throws ReferenceError
+
+{
+    let letValue = 10
+    const constValue = 20
+    var varValue = 3
+}
+
+letValue = 15
+constValue = 25
+varValue = 35
